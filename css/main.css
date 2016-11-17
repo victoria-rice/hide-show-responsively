@@ -18,5 +18,26 @@ html {
 }
 
 img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 49%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img:nth-child(an+b) {
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
 
 }
