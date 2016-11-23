@@ -30,6 +30,7 @@ img:nth-child(2), img:nth-child(4) {
   img {
     width: 49%;
   }
+
   img:nth-child(2), img:nth-child(4) {
     display: inline-block;
   }
@@ -38,12 +39,12 @@ img:nth-child(2), img:nth-child(4) {
 
 @media only screen and (min-width: 38em) {
 
-  img:first-child {
-    display: none;
-  }
-
   img {
     width: 32%;
+  }
+
+  img:first-child {
+    display: none;
   }
 
 }
@@ -56,6 +57,10 @@ img:nth-child(2), img:nth-child(4) {
 
   img:first-child {
     display: inline-block;
+  }
+
+  body {
+    padding-left: 1rem;
   }
 
 }
